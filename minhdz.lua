@@ -1298,7 +1298,7 @@ function CheckBossDimension()
     end
 end;
 local L_33_ = loadstring(game:HttpGet("https://you.whimper.xyz/sources/CokkaHub/ui.lua"))()
-local L_34_ = L_33_:Window("Cokka Hub 25ms was here", Enum.KeyCode.LeftControl)
+local L_34_ = L_33_:Window("Duc Minh IOS Đến Đây Ahahahah", Enum.KeyCode.LeftControl)
 print("|COKKA DEBUG| Anti AFK")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
     print("|COKKA DEBUG| AFK detected, prevented +1")
@@ -5082,16 +5082,16 @@ L_35_.RaceV4:Button('Complete Cyborg Trial', function(L_552_arg0)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, 300, 0)
 end)
 L_35_.Info:Label("Info")
-L_35_.Info:Button("My Discord (Click Copy)", function()
-    setclipboard("https://discord.gg/25ms")
+L_35_.Info:Button("My Telegram", function()
+    setclipboard("https://t.me/minhiosfefe")
 end)
-L_35_.Info:Button("My Youtube (Click Copy)", function()
-    setclipboard("https://www.youtube.com/@CokkaHub")
+L_35_.Info:Button("My Facebook", function()
+    setclipboard("https://fb.com/hoducminh.depzai")
 end)
 L_35_.Info:Button("Listen to Lofi Music", function()
     local L_553_ = Instance.new("Sound")
     L_553_.Name = "Sound Effect"
-    L_553_.SoundId = "rbxassetid://9046862941"
+    L_553_.SoundId = "rbxassetid://137543887317770"
     L_553_.Volume = 1;
     L_553_.Parent = game.Workspace;
     L_553_:Play()
